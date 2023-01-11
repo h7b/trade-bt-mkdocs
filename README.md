@@ -1,8 +1,8 @@
 ---
-title: Readme
+title: Read Me
 ---
 
-# Readme
+# Read Me
 
 This repo is generated from [Template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template).
 
