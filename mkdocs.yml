@@ -1,11 +1,11 @@
-site_name: your_site_name
-site_description: A cool description
-site_url: https://change_me.io/
+site_name: trade-bt
+site_description: trading journal of BT
+site_url: https://tradebt.com
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    #logo: assets/meta/favicons.png
+    #favicon: assets/meta/favicons.png
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -119,7 +119,7 @@ extra_css:
     - assets/css/customization.css
 extra:
   generator: false
-  SEO: assets/meta/SEO.png
+  #SEO: assets/meta/SEO.png
   blog_list:
     pagination: true
     pagination_message: true
