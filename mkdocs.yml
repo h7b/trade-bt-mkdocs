@@ -1,6 +1,6 @@
 site_name: trade-bt
 site_description: trading journal of BT
-site_url: https://tradebt.com
+site_url: https://tradebt.netlify.app/
 
 theme:
     name: 'material'
