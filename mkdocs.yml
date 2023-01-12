@@ -143,5 +143,3 @@ extra:
     fix_heading: true
 
 # Page tree
-nav:
-    - Home: index.md
