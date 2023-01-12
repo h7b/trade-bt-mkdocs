@@ -145,4 +145,3 @@ extra:
 # Page tree
 nav:
     - Home: index.md
-    - Daily Notes: notes/
