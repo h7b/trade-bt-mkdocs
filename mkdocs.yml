@@ -3,7 +3,8 @@
 site_name: trade-bt
 site_url: https://tradebt.netlify.app/
 site_author: BT
-site_description: >- trading journal of BT
+site_description: >- 
+  Trading journal of BT
 
 # Repository
 repo_name: h7b/trade-bt-mkdocs
