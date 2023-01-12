@@ -1,44 +1,54 @@
+# adpt from https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+# Project information
 site_name: trade-bt
-site_description: trading journal of BT
 site_url: https://tradebt.netlify.app/
+site_author: BT
+site_description: >- trading journal of BT
 
+# Repository
+repo_name: h7b/trade-bt-mkdocs
+repo_url: https://github.com/h7b/trade-bt-mkdocs
+edit_uri: ""
+
+# Configuration
 theme:
     name: 'material'
-    #logo: assets/meta/favicons.png
-    #favicon: assets/meta/favicons.png
-    custom_dir: overrides
+    custom_dir: overrides    
+    favicon: assets/meta/favicons.png
+    icon:
+        logo: material/library
+        repo: fontawesome/brands/git-alt
     font:
-        text: Ubuntu
-        code: Ubuntu Mono
+        text: Roboto
+        code: Roboto Mono
     language: en
     palette:
-
     # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
     features:
         - navigation.indexes
         - navigation.top
         - navigation.tabs
-        - navigation.tabs.sticky
+        #- navigation.tabs.sticky
         - navigation.expand
         - navigation.footer
         - search.suggest
         - search.highlight
+        - toc.follow
         
 # Extensions
 markdown_extensions:
@@ -78,6 +88,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
+
+# Plugins
 plugins:
   - search
   - ezlinks:
@@ -128,3 +140,8 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
+
+# Page tree
+nav:
+    - Home: index.md
+    - Daily Notes: notes/
