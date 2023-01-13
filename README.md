@@ -4,7 +4,7 @@ title: Read Me
 
 # Read Me
 
-Published url: https://tradebt.netlify.app/
+Published url: https://tradebt.pages.dev/
 
 This repo is generated from [Template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template).
 
