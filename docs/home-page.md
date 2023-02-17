@@ -2,14 +2,14 @@
 dg-publish: true
 dg-home: true
 created_at: 2023-01-13 04:00:46+0100, Fri
-modified_at: 2023-01-14 22:18:32+0100, Sat
+modified_at: 2023-02-17 24:20:34+0100, Fri
 ---
 
 # Home Page
 
 Published url: 
-- [trade-bt.netlify.app (on Netlify)](https://tradebt.netlify.app)
-- [trade-bt.pages.dev (on Cloudflare Pages)](https://tradebt.pages.dev/)
+- [tradebt.netlify.app (on Netlify)](https://tradebt.netlify.app)
+- [tradebt.pages.dev (on Cloudflare Pages)](https://tradebt.pages.dev/)
 
 This website is generated from
 - [Template DigitalGarden](https://github.com/oleeskild/digitalgarden) when being deployed via Netlify
